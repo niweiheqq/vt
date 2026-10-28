@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "ctf-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\niwei\\CTF-MCP-main\\venv_ctf\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "ctf_mcp.server"
+      ],
+      "cwd": "C:\\Users\\niwei\\CTF-MCP-main"
+    },
+    "burp-suite": {
+      "type": "stdio",
+      "command": "java",
+      "args": [
+        "-jar",
+        "D:\\新建文件夹\\mcp-proxy.jar",
+        "--sse-url",
+        "http://127.0.0.1:9876"
+      ]
+    }
+  }
+}

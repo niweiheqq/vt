@@ -1,0 +1,15 @@
+{
+	"mcpServers": {
+		"ctf-mcp": {
+			"type": "stdio",
+			"command": "C:\\Users\\niwei\\CTF-MCP-main\\venv_ctf\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"ctf_mcp.server"
+			],
+			"tools": [
+				"*"
+			]
+		}
+	}
+}

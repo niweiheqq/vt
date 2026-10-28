@@ -1,0 +1,22 @@
+# JDK 运行时
+/bin/
+/include/
+/jmods/
+/lib/
+/legal/
+/conf/
+/release
+/README
+/LICENSE
+
+# 第三方 CTF 工具
+/CTFReBox_52/
+/Des-CTF-Knowledge/
+/*CTF编码工具*/
+
+# 二进制/代理
+/mcp-proxy.jar
+
+# 系统文件
+Thumbs.db
+.DS_Store
